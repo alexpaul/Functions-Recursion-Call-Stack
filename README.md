@@ -48,6 +48,8 @@ func printNode(_ node: Node?) {
   print("\(node.value)", terminator: " ")
   // 2
   printNode(node.next)
+  // 4 
+  //print("\(node.value)", terminator: " ")
 }
 
 printNode(node1)
@@ -56,4 +58,5 @@ printNode(node1)
 1. Base case 
 2. Recursive call
 3. Print value of current node 
+4. If we were to print the node values after the function returns at each recursive call the values would be reversed. 
 
