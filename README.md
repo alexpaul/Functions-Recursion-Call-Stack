@@ -1,4 +1,4 @@
-# Functions, Recursion and the Call-Stack
+# Functions, Recursion and the Call Stack
 
 Functions, recursion and the call stack. 
 
