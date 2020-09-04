@@ -45,11 +45,11 @@ func printNode(_ node: Node?) {
     return
   }
   // 3
-  print("\(node.value)", terminator: " ")
+  print("\(node.value)", terminator: " ") // 1 2 3 
   // 2
   printNode(node.next)
   // 4 
-  //print("\(node.value)", terminator: " ")
+  //print("\(node.value)", terminator: " ") // 3 2 1
 }
 
 printNode(node1)
