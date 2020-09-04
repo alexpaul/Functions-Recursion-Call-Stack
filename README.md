@@ -60,3 +60,21 @@ printNode(node1)
 3. Print value of current node 
 4. If we were to print the node values after the function returns at each recursive call the values would be reversed. 
 
+#### Function Notes 
+
+```swift 
+// function notes
+
+func someFunction(value: Int) {
+  //value = value + 10 // value is a let, compliler error
+}
+
+func someOtherFunction(value: inout Int) {
+  value = value + 10 // value is now a mutable property
+}
+
+func someOtherFunctionAgain(value: Int) {
+  var value = value + 10 // also mutable here, does compile
+}
+```
+
