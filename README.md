@@ -106,6 +106,8 @@ Recursion is defined as a function that calls iteself.
 _input_: base number and exponent 
 _output_: the power of the given base number
 
+![recusion call stack sketch](https://user-images.githubusercontent.com/1819208/93200407-b15d1080-f71d-11ea-8ad9-305d69833222.jpg)
+
 <details> 
   <summary>Solution</summary> 
 </details> 
@@ -127,8 +129,6 @@ print(power(x: 2, y: 3)) // 8
 2. Recursive call. 
 
 #### Write a function that uses recursion to print the values of a Linked List. 
-
-![recusion call stack sketch](https://user-images.githubusercontent.com/1819208/93200407-b15d1080-f71d-11ea-8ad9-305d69833222.jpg)
 
 ```swift 
 class Node {
