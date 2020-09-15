@@ -103,8 +103,8 @@ Recursion is defined as a function that calls iteself.
 
 #### Write a function that recursively calculates the `power()` of a given number. 
 
-_input_: base number and exponent 
-_output_: the power of the given base number
+_input_: base number and exponent   
+_output_: the power of the given base number   
 
 ![recusion call stack sketch](https://user-images.githubusercontent.com/1819208/93200407-b15d1080-f71d-11ea-8ad9-305d69833222.jpg)
 
