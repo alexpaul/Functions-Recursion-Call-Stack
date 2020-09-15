@@ -128,6 +128,8 @@ print(power(x: 2, y: 3)) // 8
 
 #### Write a function that uses recursion to print the values of a Linked List. 
 
+![recusion call stack sketch](https://user-images.githubusercontent.com/1819208/93200407-b15d1080-f71d-11ea-8ad9-305d69833222.jpg)
+
 ```swift 
 class Node {
   var value: Int
