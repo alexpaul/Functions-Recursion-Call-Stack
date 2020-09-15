@@ -97,7 +97,7 @@ print(fullname) // Alex Appleseed
 
 Recursion is defined as a function that calls iteself. 
 
-> Recall: Whenever writing a recursive call the most important 2 factors are: 
+> Recall: Whenever writing a recursive function the most important 2 factors are: 
 > 1. The base case.
 > 2. The recursive call.
 
