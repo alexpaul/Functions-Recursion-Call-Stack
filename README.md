@@ -128,8 +128,14 @@ print(power(x: 2, y: 3)) // 8
 2. Recursive call.
 </details> 
  
+ 
+## Challenges 
 
-#### Write a function that uses recursion to print the values of a Linked List. 
+
+
+#### Challenge 1. 
+
+Write a function that uses recursion to print the values this given Linked List. 
 
 ```swift 
 class Node {
@@ -146,7 +152,12 @@ let node3 = Node(3)
 
 node1.next = node2
 node2.next = node3
+```
 
+<details> 
+  <summary>Solution</summary>
+  
+```swift 
 func printNode(_ node: Node?) {
   // 1
   guard let node = node else {
@@ -162,6 +173,7 @@ func printNode(_ node: Node?) {
 
 printNode(node1)
 ```
+</details> 
 
 1. Base case 
 2. Recursive call
