@@ -127,6 +127,12 @@ print(power(x: 2, y: 3)) // 8
 1. Base case. 
 2. Recursive call.
 </details> 
+
+#### Command Line Tool showing recusion and call stack
+
+In the gif below we use a `command line tool` to go through the `call stack` and experience with recursion
+
+![call stack](Assets/callstack.gif)
  
  
 ## Challenges 
