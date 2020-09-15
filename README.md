@@ -110,8 +110,7 @@ _output_: the power of the given base number
 
 <details> 
   <summary>Solution</summary> 
-</details> 
-
+  
 ```swift 
 func power(x: Int, y: Int) -> Int {
   // 1
@@ -126,7 +125,9 @@ print(power(x: 2, y: 3)) // 8
 ```
 
 1. Base case. 
-2. Recursive call. 
+2. Recursive call.
+</details> 
+ 
 
 #### Write a function that uses recursion to print the values of a Linked List. 
 
