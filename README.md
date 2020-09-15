@@ -130,7 +130,7 @@ print(power(x: 2, y: 3)) // 8
 
 #### Command Line Tool showing recusion and call stack
 
-In the gif below we use a `command line tool` to go through the `call stack` and experience with recursion
+In the gif below we use a `command line tool` to go through the `call stack` and visualize the calls from the recursive function `power(x_:, y_:)` from the sketch above.
 
 ![call stack](Assets/callstack.gif)
  
