@@ -3,6 +3,98 @@
 Functions, recursion and the call stack. 
 
 
+## Tuple return types 
+
+```swift 
+func minMax(array: [Int]) -> (min: Int, max: Int)? {
+  guard let first = array.first else {
+    return nil
+  }
+  var currMin = first
+  var currMax = first
+  for value in array {
+    if value < currMin {
+      currMin = value
+    } else if value > currMax {
+      currMax = value
+    }
+  }
+  return (currMin, currMax)
+}
+
+print(minMax(array: [4, 1, 3, 11, 9, -89, 3, 0]) ?? (0, 0)) // (min: -89, max: 11)
+```
+
+## Implicit return 
+
+```swift 
+func communityGreeting(_ cohort: String) -> String {
+  "Hello, \(cohort)!"
+}
+
+communityGreeting("iOS") // Hello, iOS!
+```
+
+## Default Parameter Values 
+
+```swift 
+func currentCohort(_ cohort: Double = 6.0) {
+  print("Current cohort is \(cohort)")
+}
+
+currentCohort() // Current cohort is 6.0
+currentCohort(7.0) // Current cohort is 7.0
+```
+
+## Variadic Parameters 
+
+```swift 
+func networkingList(_ friends: String...) { // syntax is 3 trailing dots after the Data type
+  guard !friends.isEmpty else {
+    print("Le't do some more networking.")
+    return
+  }
+  for friend in friends {
+    print("\(friend) is now a friend")
+  }
+}
+
+networkingList() // no current network, variadic argument can be omitted
+
+networkingList("Kim") // Kim is now a friend
+
+networkingList("Nancy", "David")
+/*
+ Nancy is now a friend
+ David is now a friend
+*/
+```
+
+> A function may have at most one variadic parameter. 
+
+## In-Out Parameters 
+
+```swift 
+func updateLastName(_ name: inout String) {
+  let splitNames = name.split(separator: " ")
+  
+  let firstName = splitNames[0]
+  
+  name = "\(firstName) Appleseed"
+}
+
+
+var fullname = "Alex Paul"
+
+print(fullname) // Alex Pual
+
+updateLastName(&fullname)
+
+print(fullname) // Alex Appleseed
+```
+
+## Recursion
+
 #### Write a function that recursively calculates the `power()` of a given number. 
 
 ```swift 
@@ -77,4 +169,8 @@ func someOtherFunctionAgain(value: Int) {
   var value = value + 10 // also mutable here, does compile
 }
 ```
+
+## Reading Resources 
+
+[Swift by Sundell - The power of variadic parameters](https://www.swiftbysundell.com/tips/the-power-of-variadic-parameters/)
 
