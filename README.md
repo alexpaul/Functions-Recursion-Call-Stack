@@ -197,7 +197,7 @@ printNode(node1)
 
 ## Resources 
 
-[Swift by Sundell - The power of variadic parameters](https://www.swiftbysundell.com/tips/the-power-of-variadic-parameters/)
-[Swift Programming Language - Functions](https://docs.swift.org/swift-book/LanguageGuide/Functions.html)
-[Pursuit DSA Repo](https://github.com/joinpursuit/Pursuit-Core-DSA)
+1. [Swift by Sundell - The power of variadic parameters](https://www.swiftbysundell.com/tips/the-power-of-variadic-parameters/)
+2. [Swift Programming Language - Functions](https://docs.swift.org/swift-book/LanguageGuide/Functions.html)
+3. [Pursuit DSA Repo](https://github.com/joinpursuit/Pursuit-Core-DSA)
 
