@@ -182,7 +182,22 @@ printNode(node1)
 </details> 
 
 
-## Reading Resources 
+#### Challenge 2 
+
+[HackerRank](https://www.hackerrank.com/challenges/30-recursion/problem)
+
+#### Challenge 3
+
+[LeetCode - Nth Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)
+
+#### Challenge 4 
+
+[HackerRank - Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/problem)
+
+
+## Resources 
 
 [Swift by Sundell - The power of variadic parameters](https://www.swiftbysundell.com/tips/the-power-of-variadic-parameters/)
+[Swift Programming Language - Functions](https://docs.swift.org/swift-book/LanguageGuide/Functions.html)
+[Pursuit DSA Repo](https://github.com/joinpursuit/Pursuit-Core-DSA)
 
