@@ -173,12 +173,13 @@ func printNode(_ node: Node?) {
 
 printNode(node1)
 ```
-</details> 
 
 1. Base case 
 2. Recursive call
 3. Print value of current node 
 4. If we were to print the node values after the function returns at each recursive call the values would be reversed. 
+
+</details> 
 
 
 ## Reading Resources 
