@@ -206,4 +206,5 @@ printNode(node1)
 1. [Swift by Sundell - The power of variadic parameters](https://www.swiftbysundell.com/tips/the-power-of-variadic-parameters/)
 2. [Swift Programming Language - Functions](https://docs.swift.org/swift-book/LanguageGuide/Functions.html)
 3. [Pursuit DSA Repo](https://github.com/joinpursuit/Pursuit-Core-DSA)
+4. [Dynamic Programming](https://www.freecodecamp.org/news/demystifying-dynamic-programming-3efafb8d4296/)
 
